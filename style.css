@@ -1,0 +1,50 @@
+body {
+    background: #6C727A;
+  }
+  p {
+    color: black;
+  }
+  h1 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif
+  }
+  
+  h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+  }
+  
+  img {
+    float: left;
+    width: 550px;
+    margin: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+  }
+  
+  h4 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+    font-family: sans-serif
+  }
+  
+  h5 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif
+  }
+
+  h6 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif
+  }
+  
