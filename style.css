@@ -8,13 +8,14 @@ body {
     font-weight: bold;
     text-align: center;
     font-size: 50px;
-    font-family: sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   h2 {
     font-weight: bold;
     text-align: center;
     font-size: 30px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   img {
@@ -31,20 +32,45 @@ body {
     font-weight: bold;
     text-align: left;
     font-size: 28px;
-    font-family: sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
   h5 {
     font-weight: bold;
     text-align: center;
     font-size: 30px;
-    font-family: sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   h6 {
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     font-size: 30px;
-    font-family: "Nunito", sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   
+  h3 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+  }
+
+  a {
+    color: blue;
+  }
