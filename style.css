@@ -57,7 +57,7 @@ body {
     height: 30px;
   }
 
-  header {
+  header{
     font-weight: bold;
     text-align: center;
     font-size: 45px;
@@ -67,7 +67,7 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
-  header a {
+  header a{
     text-decoration: none;
   }
 
