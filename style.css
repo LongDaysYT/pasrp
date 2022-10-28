@@ -2,7 +2,7 @@ body {
     background: #6C727A;
   }
   p {
-    color: "black";
+    color: black;
   }
   h1 {
     font-weight: bold;
@@ -22,7 +22,7 @@ body {
     float: left;
     width: 550px;
     margin: 10px;
-    border-color: "black";
+    border-color: black;
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
@@ -61,14 +61,14 @@ body {
     font-weight: bold;
     text-align: center;
     font-size: 45px;
-    color: "white";
-    background-color: "black";
+    color: white;
+    background-color: black;
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
 
   header a {
-    text-decoration: "none";
+    text-decoration: none;
   }
 
   h2 {
@@ -76,13 +76,13 @@ body {
     text-align: center;
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: "white";
+    color: white;
   }
 
   a {
-    color: "blue";
+    color: blue
   }
 
   table {
-    color: "black";
+    color: black;
   }
