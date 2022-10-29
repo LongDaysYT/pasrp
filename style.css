@@ -80,9 +80,17 @@ body {
   }
 
   a {
-    color: blue;
+    color: blue
   }
 
   table {
     color: black;
+  }
+
+  video {
+    margin: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
   }
