@@ -12,55 +12,467 @@
     <header> <a href="index.html" style="color: white"> Home </a>|  <a href="aboutus.html"  style="color: white"> About Us </a> | 
       <a href="community.html"  style="color: white"> Community </a> | <a href="roster.html"  style="color: white"> Roster </a> | 
       <a href="howto.html"  style="color: white"> Public Information </a></header>
-    <div style = "position:absolute; right:1640px; bottom:570px; color:black;">
-      <h6> Owner Roster </h6>
-      </div>
-    <div style = "position:absolute; right:1125px; bottom:570px; background-color:grey;">
-    <h6> PADPS Roster </h6>
-    </div>
-    <div style = "position:absolute; right:600px; bottom:570px; background-color:grey;">
-      <h6> Civilian Roster </h6>
-      </div>
-      <div style = "position:absolute; right:135px; bottom:570px; background-color:grey;">
-        <h6> PADFS Roster </h6>
+      <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .row {
+          margin-left:-5px;
+          margin-right:-5px;
+        }
+          
+        .column {
+          float: left;
+          width: 50%;
+          padding: 5px;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        
+        table {
+          border-collapse: collapse;
+          border-spacing: 0;
+          width: 100%;
+          border: 1px solid grey;
+        }
+        
+        th, td {
+          text-align: left;
+          padding: 16px;
+        }
+        
+        tr:nth-child(even) {
+          background-color: grey;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <h5>Owner Roster | Department of Public Safety Roster</h5>
+        <br>
+        <div class="row">
+          <div class="column">
+            <table>
+              <tr>
+                <th>Name</th>
+                <th>Callsign</th>
+                <th>Join Date</th>
+              </tr>
+              <tr>
+                <td>L. Caldwell</td>
+                <td>101</td>
+                <td>7/2/2019</td>
+              </tr>
+              <tr>
+                <td>OzMedic</td>
+                <td>102</td>
+                <td>11/27/2018</td>
+              </tr>
+              <tr>
+                <td>Lincoln</td>
+                <td>103</td>
+                <td>11/27/2017</td>
+              </tr>
+              <tr>
+                <td>Greenwald</td>
+                <td>104</td>
+                <td>10/1/2018</td>
+              </tr>
+              <tr>
+                <td>JerzyTim</td>
+                <td>105</td>
+                <td>10/8/2018</td>
+              </tr>
+              <tr>
+              <td>M. Friend</td>
+              <td>106</td>
+              <td>5/9/2018</td>
+              </tr>
+              <tr>
+              <td>Garrett Moos</td>
+              <td>107</td>
+              <td>11/27/2017</td>
+              </tr>
+            </table>
+          </div>
+          <div class="column">
+            <table>
+              <tr>
+                <th>Callsign</th>
+                <th>Name</th>
+                <th>Rank</th>
+                <th>Position</th>
+              </tr>
+              <tr>
+                <td>151</td>
+                <td>Aesyr</td>
+                <td>Commissioner</td>
+                <td>Departments Heads</td>
+              </tr>
+              <tr>
+                <td>152</td>
+                <td>Mason</td>
+                <td>Deputy Commissioner</td>
+                <td>Departments Heads</td>
+              </tr>
+              <tr>
+                <td>153</td>
+                <td>Jones</td>
+                <td>Deputy Commissioner</td>
+                <td>Departments Heads</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>154</td>
+                <td>Empty</td>
+                <td>Major</td>
+                <td>High Command</td>
+              </tr>
+              <tr>
+                <td>155</td>
+                <td>Empty</td>
+                <td>Major</td>
+                <td>High Command</td>
+              </tr>
+              <tr>
+                <td>156</td>
+                <td>Empty</td>
+                <td>Major</td>
+                <td>High Command</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>201</td>
+                <td>Cooper</td>
+                <td>Captain</td>
+                <td>Command</td>
+              </tr>
+              <tr>
+                <td>202</td>
+                <td>Anthony H.</td>
+                <td>Captain</td>
+                <td>Command</td>
+              </tr>
+              <tr>
+                <td>203</td>
+                <td>Jays</td>
+                <td>Captain</td>
+                <td>Command</td>
+              </tr>
+              <tr>
+                <td>204</td>
+                <td>Noah</td>
+                <td>Captain</td>
+                <td>Command</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>251</td>
+                <td>James McGrady</td>
+                <td>Lieutenant</td>
+                <td>Command</td>
+              </tr>
+              <tr>
+                <td>252</td>
+                <td>Empty</td>
+                <td>Lieutenant</td>
+                <td>Command</td>
+              </tr>
+              <tr>
+                <td>253</td>
+                <td>Empty</td>
+                <td>Lieutenant</td>
+                <td>Command</td>
+              </tr>
+              <tr>
+                <td>254</td>
+                <td>Empty</td>
+                <td>Lieutenant</td>
+                <td>Command</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>281</td>
+                <td>Murphy C.</td>
+                <td>Master Sergeant</td>
+                <td>Lead Supervisors</td>
+              </tr>
+              <tr>
+                <td>282</td>
+                <td>Joe F.</td>
+                <td>Master Sergeant</td>
+                <td>Lead Supervisors</td>
+              </tr>
+            </table>
+          </div>
         </div>
-    <table border="4"> 
-      <tr>
-        <th>Owners</th>
-        <th>Retired Owner</th>
-        <th>Human Resources</th>
-         <th></th>
-         <th></th>
-         <th>Commissioner</th>
-      </tr>
-      <tr>
-        <td>101 | L. Caldwell </td>
-        <td>R-01 |  Dylan</td>
-        <td>HR-1 Richard </td>
-      </tr>
-      <tr>
-        <td>102 | OzMedic </td>
-        <td>R-02 | Bananajoe</td>
-      </tr>
-      <tr>
-        <td>103 | Lincoln</td>
-        <td>R-03 | RangerRAL</td>
-      </tr>
-      <tr>
-        <td>104 | Greenwald</td>
-        <td>R-04 | JerzyBulldog</td>
-      </tr>
-      <tr>
-        <td>105 | Jerzytim</td>
-        <td>R-05 | Akickted</td>
-      </tr>
-      <tr>
-        <td>106 | M. Friend</td>
-      </tr>
-      <tr>
-        <td>107 | Garret Moos</td>
-      </tr>
-    </table>
+        <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          .row {
+            margin-left:-5px;
+            margin-right:-5px;
+          }
+            
+          .column {
+            float: left;
+            width: 50%;
+            padding: 5px;
+          }
+          
+          /* Clearfix (clear floats) */
+          .row::after {
+            content: "";
+            clear: both;
+            display: table;
+          }
+          
+          table {
+            border-collapse: collapse;
+            border-spacing: 0;
+            width: 100%;
+            border: 1px solid  black;
+          }
+          
+          th, td {
+            text-align: left;
+            padding: 16px;
+          }
+          
+          tr:nth-child(even) {
+            background-color: crimson;
+          }
+          </style>
+          </head>
+          <body>
+          
+          <h5>Department of Fire Safety Roster | Certified Civilian Roster</h5>
+          <br>
+          
+          <div class="row">
+            <div class="column">
+              <table>
+                <tr>
+                  <th>Rank</th>
+                  <th>Position</th>
+                  <th>Callsign</th>
+                  <th>Name</th>
+                </tr>
+                <tr>
+                  <td>Chief</td>
+                  <td>Head of Operations</td>
+                  <td>7 Chief</td>
+                  <td>Max</td>
+                </tr>
+                <tr>
+                  <td>Deputy Chief</td>
+                  <td>Chief of Administration</td>
+                  <td>7 Deputy</td>
+                  <td>Noolster</td>
+                </tr>
+                <tr>
+                  <td>Assistant Chief</td>
+                  <td>Chief of Operations</td>
+                  <td>Assistant 7</td>
+                  <td>Empty</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                  <td>Captain</td>
+                  <td>Administration</td>
+                  <td>Captain 71</td>
+                  <td>Gibbard</td>
+                </tr>
+                <tr>
+                  <td>Captain</td>
+                  <td>Operations</td>
+                  <td>Captain 72</td>
+                  <td>Griffin M.</td>
+                </tr>
+                <tr>
+                  <td>Captain</td>
+                  <td>Academy</td>
+                  <td>Captain 73</td>
+                  <td>Brandon B.</td>
+                </tr>
+                <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                </tr>
+                <tr>
+                  <td>Lieutenant</td>
+                  <td>Command</td>
+                  <td>Lt. 71</td>
+                  <td>Empty</td>
+                </tr>
+                <tr>
+                  <td>Lieutenant</td>
+                  <td>Command</td>
+                  <td>Lt. 72</td>
+                  <td>Empty</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Officer</td>
+                  <td>Safety Officer</td>
+                  <td>71</td>
+                  <td>Empty</td>
+                </tr>
+                <tr>
+                  <td>Officer</td>
+                  <td>Training Officer</td>
+                  <td>72</td>
+                  <td>Louis C.</td>
+                </tr>
+                <tr>
+                  <td>Officer</td>
+                  <td>Accountability Officer</td>
+                  <td>73</td>
+                  <td>Empty</td>
+                </tr>
+                <tr>
+                  <td>Officer</td>
+                  <td>Air Officer</td>
+                  <td>74</td>
+                  <td>Empty</td>
+                </tr>
+              </table>
+            </div>
+            <div class="column">
+              <table>
+                <tr>
+                  <th>Rank</th>
+                  <th>Name</th>
+                  <th>Position</th>
+                </tr>
+                <tr>
+                  <td>Civilian Director</td>
+                  <td>Ron</td>
+                  <td>High Command</td>
+                </tr>
+                <tr>
+                  <td>Assistant Civilian Director</td>
+                  <td>Vaurne</td>
+                  <td>High Command</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Civilian Exective Manager</td>
+                  <td>Data</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td>Civilian Exective Manager</td>
+                  <td>Empty</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Civilian Manager</td>
+                  <td>Data</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td>Civilian Manager</td>
+                  <td>Empty</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td>Civilian Manager</td>
+                  <td>Empty</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Civilian Supervisor</td>
+                  <td>Anthony</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td>Civilian Supervisor</td>
+                  <td>Empty</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td>Civilian Supervisor</td>
+                  <td>Empty</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>Civilian Advisor</td>
+                  <td>Rhenium Carbon</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td>Civilian Advisor</td>
+                  <td>MrLaMoon</td>
+                  <td>Command</td>
+                </tr>
+                <tr>
+                  <td>Civilian Advisor</td>
+                  <td>Empty</td>
+                  <td>Command</td>
+                </tr>
+              </table>
+            </div>
+          </div>
         <br>
         <br>
         <br>
